@@ -1,0 +1,17 @@
+下载安装包
+https://github.com/klintan/pytorch-lanenet
+
+改setup.py
+删掉pytorch
+torchvision
+
+
+改loss.py
+64.  embedding_i = embedding_b* seg_mask_i
+
+conda create -n MUN -y python=3.8
+
+
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.2 -c pytorch
+
+
